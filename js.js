@@ -16,6 +16,6 @@
               //                var i = randGen();
               var content = "Ne mogu moram da " + glagol[rand1] + " " + objekat[rand2] + " sa " + likovi[rand3] + ".";
 
-              document.getElementById('sentence').innerHTML = "&quot;" + content + "&quot;";
+              document.getElementById('sentence').innerHTML= "&quot;" + content + "&quot;";
             };
             sentence();
