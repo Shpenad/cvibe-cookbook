@@ -1,3 +1,111 @@
+#govno{
+	position:relative;
+	top:150px;
+    text-align:center;
+    border-style:solid;
+    border-width:2px;  
+    border-color:red;
+		width: 50%;
+		height:90px;
+		margin: 0 auto;
+		background-color:#FFA500 ;
+	font-size: 1.5vw;
+}
+
+#dugme {
+		position:relative;
+		top:150px;
+	text-align:center;
+    border-style:solid;
+    border-width:2px;  
+    border-color:red;
+			width: 20%;
+		height:50px;
+		margin: 0 auto;
+		background-color:yellow;
+}
+
+#sentence{
+		position:relative;
+		top:150px;
+	text-align:center;
+    border-style:solid;
+    border-width:2px;  
+    border-color:red;
+			width: 50%;
+		height:80px;
+		margin: 0 auto;
+		background-color:blue;
+		font-size: 1.8vw;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 body {
   color: #2e2e2e;
   font-family: sans-serif;
@@ -10,7 +118,7 @@ body {
   background-color: #3FABF2;
   color: whitesmoke;
   position: relative;
-  /*                margin-top: 10vh;*/
+  /*                margin-top: 10vh;
   height: 89vh;
   padding-top: 14vh;
   box-sizing: border-box;
@@ -25,7 +133,7 @@ body {
   -ms-hyphens: auto;
   hyphens: auto;
   width: 73cr;
-  /*                top: 20vh;*/
+  /*                top: 20vh;
 }
 
 h1 {
@@ -81,3 +189,4 @@ button:hover {
     text-align: center;
   }
 }
+*/
