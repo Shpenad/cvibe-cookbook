@@ -1,15 +1,30 @@
-#govno{
+body  {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  background-size: cover;
+}
+h2{
+	    font-weight: lighter;
+	
+}
+
+#naslov{
 	position:relative;
 	top:150px;
     text-align:center;
     border-style:solid;
-    border-width:2px;  
-    border-color:red;
-		width: 50%;
-		height:90px;
+    border-width:0.1px;  
+    border-color:#656565;
+		width: 40%;
+		height: 70px;
 		margin: 0 auto;
-		background-color:#FFA500 ;
-	font-size: 1.5vw;
+		background-color:#656565 ;
+	font-size: 1.4vw;
+	font-family: 'Montserrat', sans-serif;
+	color: #F5F0EF; 
+	letter-spacing: 3px;
+	font-weight: lighter;
 }
 
 #dugme {
@@ -19,10 +34,11 @@
     border-style:solid;
     border-width:2px;  
     border-color:red;
-			width: 20%;
-		height:50px;
+			width: 40%;
+		height:60px;
 		margin: 0 auto;
-		background-color:yellow;
+		/*background-color:yellow;*/
+	
 }
 
 #sentence{
@@ -35,7 +51,29 @@
 			width: 50%;
 		height:80px;
 		margin: 0 auto;
-		background-color:blue;
+		/*background-color:blue;*/
 		font-size: 2vw;
+		font-family: 'Special Elite', cursive;
 	
 }
+
+.button {
+  background-color: #e7e7e7; 
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  border-radius: 4px;
+font-family: 'Montserrat', sans-serif;  
+  font-size: 1.8vw;
+  max-width: 100%;
+}
+.button:hover {
+  background-color: #656565;
+  color: white;
+}
+
+
