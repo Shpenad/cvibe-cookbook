@@ -3,8 +3,9 @@ body  {
   background-repeat: no-repeat;
   background-color: #cccccc;
   background-size: cover;
-	  width: 100%;
+    width: 100%;
   height: auto;
+  background-attachment: fixed;
 }
 h2{
 	    font-weight: lighter;
