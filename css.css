@@ -4,7 +4,7 @@ body  {
   background-color: #cccccc;
   background-size: cover;
     width: 100%;
-  height: auto;
+  height: 100vh;
   background-attachment: fixed;
 }
 h2{
