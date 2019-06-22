@@ -38,7 +38,8 @@
               var arhivski = arhiva[rand4]
               
               var array1 = [content, arhivski]
-
-              document.getElementById('sentence').innerHTML = "&quot;" + array1[rand5] + "&quot;";
+							
+							var final = array1[rand5]
+              document.getElementById('sentence').innerHTML = "&quot;" + final  + "&quot;";
             };
             sentence();
