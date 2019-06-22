@@ -31,15 +31,18 @@
               var rand2 = Math.floor(Math.random() * objekat.length);
               var rand3 = Math.floor(Math.random() * likovi.length);
               var rand4 = Math.floor(Math.random() * arhiva.length);
-              var rand5 = Math.floor(Math.random() * array1.length);
+              var rand5 = Math.floor(Math.random() * 2);
               //                var randCol = [rand1,rand2,rand3];
               //                var i = randGen();
               var content = "Ne mogu moram da " + glagol[rand1] + " " + objekat[rand2] + " sa " + likovi[rand3] + ".";
               var arhivski = arhiva[rand4]
               
-              var array1 = [content, arhivski]
-							
-							var final = array1[rand5]
-              document.getElementById('sentence').innerHTML = "&quot;" + final  + "&quot;";
+              
+							if (rand5 == 0) {
+              								document.getElementById('sentence').innerHTML = "&quot;" + content  + "&quot;";
+            									}
+            	else {
+              			document.getElementById('sentence').innerHTML = "&quot;" + arhivski  + "&quot;";
+            				}
             };
             sentence();
