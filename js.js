@@ -31,11 +31,14 @@
               var rand2 = Math.floor(Math.random() * objekat.length);
               var rand3 = Math.floor(Math.random() * likovi.length);
               var rand4 = Math.floor(Math.random() * arhiva.length);
+              var rand5 = Math.floor(Math.random() * arrau1.length);
               //                var randCol = [rand1,rand2,rand3];
               //                var i = randGen();
               var content = "Ne mogu moram da " + glagol[rand1] + " " + objekat[rand2] + " sa " + likovi[rand3] + ".";
               var arhivski = arhiva[rand4]
+              
+              var array1 = [content, arhivski]
 
-              document.getElementById('sentence').innerHTML = "&quot;" + arhivski + "&quot;";
+              document.getElementById('sentence').innerHTML = "&quot;" + array1[rand5] + "&quot;";
             };
             sentence();
