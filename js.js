@@ -1,4 +1,4 @@
-            var glagol, objekat, likovi, arhiva, deprapridev, depraglagol, predlog, deprapridev2, depraobjekat, depraglagol2, depralikovi ;
+            var glagol, objekat, likovi, arhiva, deprapridev, depraglagol, predlog, deprapridev2, depraobjekat, depraglagol2, depralikovi;
             
             glagol = ["sadim", "pecem", "berem", "cistim", "plevim", "kuvam", "farbam", "gledam", "kupim", "natocim", "sipam", "iseckam", "citam", "pevam", 
             "kujem", "stemujem", "avanzujem", "liferujem", "slusam", "stimungujem", "nastimam", "cepam", "jedem", "usisam", "premazem", "namazem", "peglam", 
@@ -20,16 +20,16 @@
              "Ne mogu moram da farbam ogradu.", "Ne mogu moram da radim stepenice sutra.", "Ne mogu moram da usisam.", "Ne mogu na fudbal dolazi mi elektricar.", 
              "Ne mogu na koncert kasno pocinje.", "Ne mogu moram da cistim sprat.", "Ne mogu moram da nosim snimke ct-a u kamenicu.", "Ne mogu moram da zalijem cvece.",
              "Ne mogu moram da setam kera.", "Ne mogu moram da gledam plocice.", "Ne mogu moram sa Korovom da gledam odela.", "Ne mogu moram da idem na Divnu Ljubojevic.",
-             "Ne mogu moram da premazem terasu firnajzom.", "Ne mogu na Novu Godinu moram da setam  kera sa bratom", "Ne mogu verio mi se drugar.", "Ne mogu moram da pecem jagnje."  ]
+             "Ne mogu moram da premazem terasu firnajzom.", "Ne mogu na Novu Godinu moram da setam  kera sa bratom", "Ne mogu verio mi se drugar.", "Ne mogu moram da pecem jagnje."  ];
              
              
-             deprapridev = ["besciljno", "razocarano", "dubokoumno", "filozofski", "esencijalno", "egzistencijalno", "moralno", "pesimisticno"]
-             depraglagol = ["buljim", "tonem", "propadam", "mracim", "postojim", "raspravim", "nestanem" ]
-             predlog = ["u", "na", "oko", "iz"]
-             deprapridev2 = ["beskonacnu", "besciljnu", "emotivnu", "beznadeznu", "depresivnu"]
-             depraobjekat = ["entropiju", "depresiju", "rupu", "jamu", "planinu", "prepreku"]
-             depraglagol2 = ["postojanja", "entropije", "egzistencije", "egzistencijalizma", "bespuca"]
-             depralikovi = ["Kamijem", "Kafkom", "Niceom", "de Sadom", "Sartrom", "Dostojevskim"]
+             deprapridev = ["besciljno", "razocarano", "dubokoumno", "filozofski", "esencijalno", "egzistencijalno", "moralno", "pesimisticno"];
+             depraglagol = ["buljim", "tonem", "propadam", "mracim", "postojim", "raspravim", "nestanem" ];
+             predlog = ["u", "na", "oko", "iz"];
+             deprapridev2 = ["beskonacnu", "besciljnu", "emotivnu", "beznadeznu", "depresivnu"];
+             depraobjekat = ["entropiju", "depresiju", "rupu", "jamu", "planinu", "prepreku"];
+             depraglagol2 = ["postojanja", "entropije", "egzistencije", "egzistencijalizma", "bespuca"];
+             depralikovi = ["Kamijem", "Kafkom", "Niceom", "de Sadom", "Sartrom", "Dostojevskim"];
 
             function randGen() {
               return Math.floor(Math.random() * 5);
@@ -51,12 +51,10 @@
               //                var randCol = [rand1,rand2,rand3];
               //                var i = randGen();
               var content = "Ne mogu moram da " + glagol[rand1] + " " + objekat[rand2] + " sa " + likovi[rand3] + ".";
-              var arhivski = arhiva[rand4]
-              var depra = "Ne mogu moram da " + deprapridev[rand6] + " " + depraglagol[rand7] + " " 
-              + predlog[rand8] + " " + deprapridev2[rand9] + " " + depraobjekat[rand10] + " " + depraglagol2[rand11] " sa " + depralikovi[rand12] + ".";
+              var arhivski = arhiva[rand4];
+              var depra = "Ne mogu moram da " + deprapridev[rand6] + " " + depraglagol[rand7] + " " + predlog[rand8] + " " + deprapridev2[rand9] + " " + depraobjekat[rand10] + " " + depraglagol2[rand11] + " sa " + depralikovi[rand12 + "."];
               
-              
-							if (rand5 == 0) {
+              			if (rand5 == 0) {
               								document.getElementById('sentence').innerHTML = "&quot;" + content  + "&quot;";
             									}
             	else if (	rand5 === 1){
