@@ -20,7 +20,7 @@
              "Ne mogu moram da farbam ogradu", "Ne mogu moram da radim stepenice sutra", "Ne mogu moram da usisam", "Ne mogu na fudbal dolazi mi elektricar", 
              "Ne mogu na koncert kasno pocinje", "Ne mogu moram da cistim sprat", "Ne mogu moram da nosim snimke ct-a u kamenicu", "Ne mogu moram da zalijem cvece",
              "Ne mogu moram da setam kera", "Ne mogu moram da gledam plocice", "Ne mogu moram sa Korovom da gledam odela", "Ne mogu moram da idem na Divnu Ljubojevic",
-             "Ne mogu moram da premazem terasu firnajzom", "Ne mogu na ng moram da setam  kera sa bratom", "Ne mogu verio mi se drugar", "Ne mogu moram da pecem jagnje "  ]
+             "Ne mogu moram da premazem terasu firnajzom", "Ne mogu na ng moram da setam  kera sa bratom", "Ne mogu verio mi se drugar", "Ne mogu moram da pecem jagnje "];
 
             function randGen() {
               return Math.floor(Math.random() * 5);
@@ -35,14 +35,13 @@
               //                var randCol = [rand1,rand2,rand3];
               //                var i = randGen();
               var content = "Ne mogu moram da " + glagol[rand1] + " " + objekat[rand2] + " sa " + likovi[rand3] + ".";
-              var arhivski = arhiva[rand4]
+              var arhivski = arhiva[rand4];
               
-              
-							if (rand5 == 0) {
-              								document.getElementById('sentence').innerHTML = "&quot;" + content  + "&quot;";
-            									}
-            	else {
-              			document.getElementById('sentence').innerHTML = "&quot;" + arhivski  + "&quot;";
-            				}
-            };
+				if (rand5 === 0) {
+                document.getElementById('sentence').innerHTML = "&quot;" + content  + "&quot;";
+                }
+                else {
+                document.getElementById('sentence').innerHTML = "&quot;" + arhivski  + "&quot;";
+                }
+            }
             sentence();
