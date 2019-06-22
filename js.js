@@ -24,7 +24,7 @@
              
              
              deprapridev = ["besciljno", "razocarano", "dubokoumno", "filozofski", "esencijalno", "egzistencijalno", "moralno", "pesimisticno"];
-             depraglagol = ["buljim", "tonem", "propadam", "mracim", "postojim", "raspravim", "nestanem" ];
+             depraglagol = ["buljim", "tonem", "propadam", "nestanem" ];
              predlog = ["u"];
              deprapridev2 = ["beskonacnu", "besciljnu", "emotivnu", "beznadeznu", "depresivnu"];
              depraobjekat = ["entropiju", "depresiju", "rupu", "jamu", "planinu", "prepreku"];
