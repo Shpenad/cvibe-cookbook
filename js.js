@@ -40,7 +40,7 @@
               var rand2 = Math.floor(Math.random() * objekat.length);
               var rand3 = Math.floor(Math.random() * likovi.length);
               var rand4 = Math.floor(Math.random() * arhiva.length);
-              var rand5 = Math.floor(Math.random() * 3);
+              var rand5 = Math.floor(Math.random() * 5);
               var rand6 = Math.floor(Math.random() * deprapridev.length);
               var rand7 = Math.floor(Math.random() * depraglagol.length);
               var rand8 = Math.floor(Math.random() * predlog.length);
@@ -59,7 +59,15 @@
             									}
             	else if (	rand5 === 1){
             									document.getElementById('sentence').innerHTML = "&quot;" + depra  + "&quot;";
-            		}							
+            		}
+                        
+                                    	else if (	rand5 === 2){
+            									document.getElementById('sentence').innerHTML = "&quot;" + content  + "&quot;";
+            		}
+                        
+                                    	else if (	rand5 === 3){
+            									document.getElementById('sentence').innerHTML = "&quot;" + arhivski  + "&quot;";
+            		}
             									
             	else {
               			document.getElementById('sentence').innerHTML = "&quot;" + arhivski  + "&quot;";
