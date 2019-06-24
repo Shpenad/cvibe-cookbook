@@ -54,7 +54,7 @@
               var arhivski = arhiva[rand4];
               var depra = "Ne mogu moram da " + deprapridev[rand6] + " " + depraglagol[rand7] + " " + predlog[rand8] + " " + deprapridev2[rand9] + " " + depraobjekat[rand10] + " " + depraglagol2[rand11] + ".";
               
-              			if (rand5 == 0) {
+              			if (rand5 === 0) {
               								document.getElementById('sentence').innerHTML = "&quot;" + content  + "&quot;";
             									}
             	else if (	rand5 === 1){
