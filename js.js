@@ -11,7 +11,7 @@
             
             
             likovi = ["mamom i tatom", "mamom", "tatom", "babom", "Dart Vejderom", "Aleksandrom Vucicem", "bratom", "Djokom", "Ozrenom", "kolegom",
-            "Bokijem", "Binom", "Korovom", "Divnom Ljubojevic", "Evom Ras", "komsijom", "komsinicom"];
+            "Bokijem", "Binom", "Korovom", "Divnom Ljubojevic", "Evom Ras", "komsijom", "komsinicom", "putnicima iz Futoskog busa"];
             
             arhiva = ["Ne mogu moram sutra sa mamom i tatom na planinarenje.", "Ne mogu moram da idem sa babom na bus.", "Ne mogu stize mi kamion sutra.", 
             "Ne mogu slabo sam spavao zbog Ozrenovog petla.", "Ne mogu moram sutra na basket sa bratom.", "Ne mogu radije bih istrco.",
@@ -23,12 +23,15 @@
              "Ne mogu moram da premazem terasu firnajzom.", "Ne mogu na Novu Godinu moram da setam  kera sa bratom", "Ne mogu verio mi se drugar.", "Ne mogu moram da pecem jagnje."  ];
              
              
-             deprapridev = ["besciljno", "razocarano", "dubokoumno", "filozofski", "esencijalno", "egzistencijalno", "moralno", "pesimisticno"];
-             depraglagol = ["buljim", "tonem", "propadam", "nestanem" ];
+             deprapridev = ["besciljno", "razocarano", "dubokoumno", "filozofski", "esencijalno", "egzistencijalno", "pesimisticno", "tuzno", "bedno", "entropijski",
+              "beskonacno", "hipoteticki", "metafizicki", "transcendentalno", "empirijski", "bezgranicno", "fundamentalno", "neizmerno", "depresivno"];
+             depraglagol = ["buljim", "tonem", "propadam", "nestanem", "gledam"];
              predlog = ["u"];
-             deprapridev2 = ["beskonacnu", "besciljnu", "emotivnu", "beznadeznu", "depresivnu"];
-             depraobjekat = ["entropiju", "depresiju", "rupu", "jamu", "planinu", "prepreku"];
-             depraglagol2 = ["postojanja", "entropije", "egzistencije", "egzistencijalizma", "bespuca"];
+             deprapridev2 = ["besciljnu", "razocaranu", "dubokoumnu", "filozofsku", "esencijalnu", "egzistencijalnu", "pesimisticnu", "entropijsku",
+              "beskonacnu", "hipoteticku", "metafizicku", "transcendentalnu", "empirijsku", "bezgranicnu", "fundamentalnu", "neizmernu", "depresivnu"];
+             depraobjekat = ["entropiju", "depresiju", "rupu", "jamu", "planinu", "prepreku", "ogromnost", "gigantizam", "neizmernost", "velicanstvenost", "opseznost", "prostranost"];
+             depraglagol2 = ["postojanja", "entropije", "egzistencije", "egzistencijalizma", "bespuca", "stvarnosti", "propadanja", "destrukcije", "beznadeznosti", 
+             "beskonacnosti", "razuma", "duha", "tela", "introspekcije"];
             
 
             function randGen() {
@@ -40,7 +43,7 @@
               var rand2 = Math.floor(Math.random() * objekat.length);
               var rand3 = Math.floor(Math.random() * likovi.length);
               var rand4 = Math.floor(Math.random() * arhiva.length);
-              var rand5 = Math.floor(Math.random() * 5);
+              var rand5 = Math.floor(Math.random() * 4);
               var rand6 = Math.floor(Math.random() * deprapridev.length);
               var rand7 = Math.floor(Math.random() * depraglagol.length);
               var rand8 = Math.floor(Math.random() * predlog.length);
@@ -61,14 +64,10 @@
             									document.getElementById('sentence').innerHTML = "&quot;" + depra  + "&quot;";
             		}
                         
-                                    	else if (	rand5 === 2){
+              else if (	rand5 === 2){
             									document.getElementById('sentence').innerHTML = "&quot;" + content  + "&quot;";
             		}
-                        
-                                    	else if (	rand5 === 3){
-            									document.getElementById('sentence').innerHTML = "&quot;" + arhivski  + "&quot;";
-            		}
-            									
+         									
             	else {
               			document.getElementById('sentence').innerHTML = "&quot;" + arhivski  + "&quot;";
             				}
