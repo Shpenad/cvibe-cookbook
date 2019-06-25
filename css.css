@@ -29,7 +29,7 @@ h2{
 		/*background-color:#656565 ;*/
 	font-size: 3vw;
 	font-family: Arial, Helvetica, sans-serif;
-	color: #363942; 
+	color: #605E5E; 
 	letter-spacing: 2.5px;
 	font-weight: bold;
 }
@@ -39,7 +39,7 @@ h2{
 		top:150px;
 		text-align:center;
 		width: 40%;
-		height:58px;
+		height:128px;
 		margin: 0 auto;
 		/*background-color:yellow;*/
 	
@@ -56,30 +56,36 @@ h2{
 		height:80px;
 		margin: 0 auto;
 		/*background-color:#656565 ;*/
-		font-size: 4vw;
+		font-size: 3.5vw;
 		font-family: Arial, Helvetica, sans-serif;
-		color:#363942;
+		color:#605E5E;
 			letter-spacing: 2px;
 	font-weight: normal;
 	
 }
 
 .button {
-  background-color: #e7e7e7; 
+  background-color: Transparent;
+  background: url(button.gif);
   border: none;
   color: black;
-  padding: 10px 22px;
+  padding: 60px 60px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 22px;
-  border-radius: 4px;
+  border-radius: 100%;
 font-family: Arial, Helvetica, sans-serif; 
   font-size: 2vw;
   max-width: 100%;
+  outline:none;
+      background-size: 160%;
+    background-repeat: no-repeat;
+	background-position: 52% 50%; 
+  
   
 }
-.button:hover {
+11.button:hover {
   background-color: #656565;
   color: white;
 }
