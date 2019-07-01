@@ -29,7 +29,7 @@
              predlog = ["u"];
              deprapridev2 = ["besciljnu", "razocaranu", "dubokoumnu", "filozofsku", "esencijalnu", "egzistencijalnu", "pesimisticnu", "entropijsku",
               "beskonacnu", "hipoteticku", "metafizicku", "transcendentalnu", "empirijsku", "bezgranicnu", "fundamentalnu", "neizmernu", "depresivnu"];
-             depraobjekat = ["entropiju", "depresiju", "rupu", "jamu", "planinu", "prepreku", "ogromnost", "gigantizam", "neizmernost", "velicanstvenost", "opseznost", "prostranost"];
+             depraobjekat = ["entropiju", "depresiju", "rupu", "jamu", "planinu", "prepreku", "ogromnost", "neizmernost", "velicanstvenost", "opseznost", "prostranost"];
              depraglagol2 = ["postojanja", "entropije", "egzistencije", "egzistencijalizma", "bespuca", "stvarnosti", "propadanja", "destrukcije", "beznadeznosti", 
              "beskonacnosti", "razuma", "duha", "tela", "introspekcije"];
             
@@ -77,3 +77,4 @@
             				}
             };
             sentence();
+
